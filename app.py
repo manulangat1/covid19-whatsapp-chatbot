@@ -16,6 +16,7 @@ def bot():
     resp = MessagingResponse()
     msg = resp.message()
     responded = False
+    print(msg)
 
     if 'Hi' in incoming_msg or 'Hey' in incoming_msg or 'Heya' in incoming_msg or 'Menu' in incoming_msg:
         text = f'Hello 🙋🏽‍♂,\n This is a Covid bot developed by Kipchirchir Emmanuel Langat to show the latest statistics of covid 19 \n Please enter one of the following option 👇 \n *A*. Covid-19 statistics *Worldwide*. \n *B*. Covid-19 cases in *Kenya*. \n *C*. Covid-19 cases in *China*. \n *D*. Covid-19 cases in *USA*. \n *E*. Coronavirus cases in *Italy*. \n *F*. How does it *Spread*? \n *G*. *Preventive measures* to be taken.'
